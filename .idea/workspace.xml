@@ -1,11 +1,35 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="46d56ac7-bdf8-4c8a-bcf3-7b2e22f25ffb" name="Default Changelist" comment="" />
+    <list default="true" id="46d56ac7-bdf8-4c8a-bcf3-7b2e22f25ffb" name="Default Changelist" comment="">
+      <change beforePath="$PROJECT_DIR$/.idea/misc.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/vcs.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/vcs.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/yl-s-code.iml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/yl-s-code.iml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/test.txt" beforeDir="false" />
+    </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
     <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="FileTemplateManagerImpl">
+    <option name="RECENT_TEMPLATES">
+      <list>
+        <option value="Python Script" />
+      </list>
+    </option>
+  </component>
+  <component name="FlaskConsoleOptions" custom-start-script="import sys&#10;sys.path.extend([WORKING_DIR_AND_PYTHON_PATHS])&#10;from flask.cli import ScriptInfo&#10;locals().update(ScriptInfo(create_app=None).load_app().make_shell_context())&#10;print(&quot;Python %s on %s\nApp: %s [%s]\nInstance: %s&quot; % (sys.version, sys.platform, app.import_name, app.env, app.instance_path))">
+    <envs>
+      <env key="FLASK_APP" value="app" />
+    </envs>
+    <option name="myCustomStartScript" value="import sys&#10;sys.path.extend([WORKING_DIR_AND_PYTHON_PATHS])&#10;from flask.cli import ScriptInfo&#10;locals().update(ScriptInfo(create_app=None).load_app().make_shell_context())&#10;print(&quot;Python %s on %s\nApp: %s [%s]\nInstance: %s&quot; % (sys.version, sys.platform, app.import_name, app.env, app.instance_path))" />
+    <option name="myEnvs">
+      <map>
+        <entry key="FLASK_APP" value="app" />
+      </map>
+    </option>
   </component>
   <component name="Git.Settings">
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
@@ -20,7 +44,63 @@
     <property name="RunOnceActivity.OpenProjectViewOnStart" value="true" />
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="last_opened_file_path" value="$PROJECT_DIR$" />
-    <property name="settings.editor.selected.configurable" value="reference.settingsdialog.IDE.editor.colors.Python" />
+    <property name="settings.editor.selected.configurable" value="vcs.Git" />
+  </component>
+  <component name="RecentsManager">
+    <key name="MoveFile.RECENT_KEYS">
+      <recent name="D:\GithubCode\yl-s-code" />
+    </key>
+  </component>
+  <component name="RunManager">
+    <configuration default="true" type="PythonConfigurationType" factoryName="Python">
+      <module name="yl-s-code" />
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <envs>
+        <env name="PYTHONUNBUFFERED" value="1" />
+      </envs>
+      <option name="SDK_HOME" value="" />
+      <option name="WORKING_DIRECTORY" value="" />
+      <option name="IS_MODULE_SDK" value="false" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <EXTENSION ID="PythonCoverageRunConfigurationExtension" runner="coverage.py" />
+      <option name="SCRIPT_NAME" value="" />
+      <option name="PARAMETERS" value="" />
+      <option name="SHOW_COMMAND_LINE" value="true" />
+      <option name="EMULATE_TERMINAL" value="false" />
+      <option name="MODULE_MODE" value="false" />
+      <option name="REDIRECT_INPUT" value="false" />
+      <option name="INPUT_FILE" value="" />
+      <method v="2" />
+    </configuration>
+    <configuration name="homework1" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
+      <module name="yl-s-code" />
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <envs>
+        <env name="PYTHONUNBUFFERED" value="1" />
+      </envs>
+      <option name="SDK_HOME" value="" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
+      <option name="IS_MODULE_SDK" value="true" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <EXTENSION ID="PythonCoverageRunConfigurationExtension" runner="coverage.py" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/homework1.py" />
+      <option name="PARAMETERS" value="" />
+      <option name="SHOW_COMMAND_LINE" value="false" />
+      <option name="EMULATE_TERMINAL" value="false" />
+      <option name="MODULE_MODE" value="false" />
+      <option name="REDIRECT_INPUT" value="false" />
+      <option name="INPUT_FILE" value="" />
+      <method v="2" />
+    </configuration>
+    <recent_temporary>
+      <list>
+        <item itemvalue="Python.homework1" />
+      </list>
+    </recent_temporary>
   </component>
   <component name="SpellCheckerSettings" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" DefaultDictionary="application-level" UseSingleDictionary="true" transferred="true" />
   <component name="TaskManager">
@@ -30,7 +110,12 @@
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
       <updated>1604407496388</updated>
-      <workItem from="1604407499124" duration="231000" />
+      <workItem from="1604407499124" duration="831000" />
+      <workItem from="1606821613013" duration="67000" />
+      <workItem from="1606821713981" duration="5852000" />
+      <workItem from="1606879147200" duration="1496000" />
+      <workItem from="1606880858122" duration="4116000" />
+      <workItem from="1606981415691" duration="2624000" />
     </task>
     <servers />
   </component>
@@ -38,9 +123,45 @@
     <option name="version" value="3" />
   </component>
   <component name="WindowStateProjectService">
-    <state x="461" y="169" key="SettingsEditor" timestamp="1604407730009">
-      <screen x="0" y="0" width="1920" height="1050" />
+    <state x="1820" y="790" key="FileChooserDialogImpl" timestamp="1607044302223">
+      <screen x="1080" y="511" width="1920" height="1050" />
+    </state>
+    <state x="1820" y="790" key="FileChooserDialogImpl/1080.511.1920.1050/0.0.1080.1890@1080.511.1920.1050" timestamp="1607044302223" />
+    <state x="1912" y="933" key="Github.ShareDialog" timestamp="1607044385510">
+      <screen x="1080" y="511" width="1920" height="1050" />
+    </state>
+    <state x="1912" y="933" key="Github.ShareDialog/1080.511.1920.1050/0.0.1080.1890@1080.511.1920.1050" timestamp="1607044385510" />
+    <state width="1877" height="285" key="GridCell.Tab.0.bottom" timestamp="1606918078504">
+      <screen x="1080" y="511" width="1920" height="1050" />
+    </state>
+    <state width="1877" height="285" key="GridCell.Tab.0.bottom/1080.511.1920.1050/0.0.1080.1890@1080.511.1920.1050" timestamp="1606918078504" />
+    <state width="1877" height="285" key="GridCell.Tab.0.center" timestamp="1606918078504">
+      <screen x="1080" y="511" width="1920" height="1050" />
+    </state>
+    <state width="1877" height="285" key="GridCell.Tab.0.center/1080.511.1920.1050/0.0.1080.1890@1080.511.1920.1050" timestamp="1606918078504" />
+    <state width="1877" height="285" key="GridCell.Tab.0.left" timestamp="1606918078504">
+      <screen x="1080" y="511" width="1920" height="1050" />
+    </state>
+    <state width="1877" height="285" key="GridCell.Tab.0.left/1080.511.1920.1050/0.0.1080.1890@1080.511.1920.1050" timestamp="1606918078504" />
+    <state width="1877" height="285" key="GridCell.Tab.0.right" timestamp="1606918078504">
+      <screen x="1080" y="511" width="1920" height="1050" />
+    </state>
+    <state width="1877" height="285" key="GridCell.Tab.0.right/1080.511.1920.1050/0.0.1080.1890@1080.511.1920.1050" timestamp="1606918078504" />
+    <state x="1541" y="680" key="SettingsEditor" timestamp="1607044311174">
+      <screen x="1080" y="511" width="1920" height="1050" />
     </state>
     <state x="461" y="169" key="SettingsEditor/0.0.1920.1050/-1080.-854.1080.1890@0.0.1920.1050" timestamp="1604407730009" />
+    <state x="1541" y="680" key="SettingsEditor/1080.511.1920.1050/0.0.1080.1890@1080.511.1920.1050" timestamp="1607044311174" />
+    <state x="1632" y="769" key="Vcs.Push.Dialog.v2" timestamp="1607044417251">
+      <screen x="1080" y="511" width="1920" height="1050" />
+    </state>
+    <state x="1632" y="769" key="Vcs.Push.Dialog.v2/1080.511.1920.1050/0.0.1080.1890@1080.511.1920.1050" timestamp="1607044417251" />
+    <state x="1843" y="949" key="com.intellij.openapi.vcs.update.UpdateOrStatusOptionsDialogupdate-v2" timestamp="1606982096644">
+      <screen x="1080" y="511" width="1920" height="1050" />
+    </state>
+    <state x="1843" y="949" key="com.intellij.openapi.vcs.update.UpdateOrStatusOptionsDialogupdate-v2/1080.511.1920.1050/0.0.1080.1890@1080.511.1920.1050" timestamp="1606982096644" />
+  </component>
+  <component name="com.intellij.coverage.CoverageDataManagerImpl">
+    <SUITE FILE_PATH="coverage/yl_s_code$homework1.coverage" NAME="homework1 Coverage Results" MODIFIED="1606907872961" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
   </component>
 </project>
