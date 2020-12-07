@@ -19,7 +19,6 @@ cRange = 256
 img = cv2.cvtColor(img, cv2.COLOR_BGR2RGB)
 imgGray = cv2.cvtColor(img, cv2.COLOR_RGB2GRAY)
 ################################################################################
-
 # pyramid level
 level = 5
 # original image at the bottom of gaussian pyramid
