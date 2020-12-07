@@ -49,12 +49,12 @@ def affine(image, x, y, a11, a12, a21, a22):
     affine = cv2.warpAffine(image, M, (w, h))
     return affine
 def projection(image, a11, a12, a13, a21, a22, a23, a31, a32, a33):
-    (h, w) = image.shape[:2]
-    M = np.float32([
-        [a11, a21, a31],
-        [a12, a22, a32],
-        [a13, a23, a33]])
-    projection = cv2.warpAffine(image, M, (w, h))
+    h, w = image.shape[:2]
+    # 从目标坐标计算出3X3的矩阵，然后调用warpPerspective执行
+    src = np.array([[0, 0], [w - 1, 0], [0, h - 1], [w - 1, h - 1]], np.float32)
+    dst = np.array([[100, 50], [w / 2.0, 50], [100, h - 1], [w - 1, h - 1]], np.float32)
+    A1 = cv2.getPerspectiveTransform(src, dst)
+    projection = cv2.warpPerspective(image, A1, (w, h))
     return projection
 def resize(image, width = None, height = None, inter = cv2.INTER_AREA):
     dim = None
@@ -89,9 +89,9 @@ img = cv2.imread('cat.jpg')
 #欧式（图片，x，y，角度，中心）
 #shifted = similar(img, 30, 50, 30, center = None, scale = 0.5)
 #相似（图片，x，y，角度，中心，规格）
-shifted = affine(img, 30, 50, 0.5, 0.5, 0, 0.5)
+#shifted = affine(img, 30, 50, 0.5, 0.5, 0, 0.5)
 #仿射（图片，x，y，a11,a12,a21,a22）
-#shifted = projection(img, 1, 0, 0, 0, 1, 0, 0, 0, 0)
+shifted = projection(img, 1, 0, 0, 0, 1, 0, 0, 0, 0)
 #投影（图片，x，y，a11,a12,a21,a22）
 #shifted = resize(img,500,500);
 #cv2.INTER_NEAREST;cv2.INTER_LINEAR;cv2.INTER_AREA;cv2.INTER_CUBIC;cv2.INTER_LANCZOS4
