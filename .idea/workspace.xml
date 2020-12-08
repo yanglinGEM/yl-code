@@ -1,7 +1,12 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="46d56ac7-bdf8-4c8a-bcf3-7b2e22f25ffb" name="Default Changelist" comment="12.7" />
+    <list default="true" id="46d56ac7-bdf8-4c8a-bcf3-7b2e22f25ffb" name="Default Changelist" comment="12.7">
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/homework1.2.py" beforeDir="false" afterPath="$PROJECT_DIR$/homework1.2.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/homework1.3.py" beforeDir="false" afterPath="$PROJECT_DIR$/homework1.3.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/homework1.4.py" beforeDir="false" afterPath="$PROJECT_DIR$/homework1.4.py" afterDir="false" />
+    </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -61,7 +66,7 @@
       <recent name="D:\GithubCode\yl-s-code" />
     </key>
   </component>
-  <component name="RunManager" selected="Python.homework1.1">
+  <component name="RunManager" selected="Python.homework1.4">
     <configuration default="true" type="PythonConfigurationType" factoryName="Python">
       <module name="yl-s-code" />
       <option name="INTERPRETER_OPTIONS" value="" />
@@ -129,9 +134,6 @@
       <module name="yl-s-code" />
       <option name="INTERPRETER_OPTIONS" value="" />
       <option name="PARENT_ENVS" value="true" />
-      <envs>
-        <env name="PYTHONUNBUFFERED" value="1" />
-      </envs>
       <option name="SDK_HOME" value="" />
       <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
       <option name="IS_MODULE_SDK" value="true" />
@@ -151,9 +153,6 @@
       <module name="yl-s-code" />
       <option name="INTERPRETER_OPTIONS" value="" />
       <option name="PARENT_ENVS" value="true" />
-      <envs>
-        <env name="PYTHONUNBUFFERED" value="1" />
-      </envs>
       <option name="SDK_HOME" value="" />
       <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
       <option name="IS_MODULE_SDK" value="true" />
@@ -190,9 +189,9 @@
     </configuration>
     <recent_temporary>
       <list>
-        <item itemvalue="Python.homework1.1" />
         <item itemvalue="Python.homework1.4" />
         <item itemvalue="Python.homework1.3" />
+        <item itemvalue="Python.homework1.1" />
         <item itemvalue="Python.homework1.2" />
         <item itemvalue="Python.homework1" />
       </list>
@@ -222,7 +221,8 @@
       <workItem from="1607307168424" duration="1219000" />
       <workItem from="1607309061568" duration="63000" />
       <workItem from="1607331492377" duration="1857000" />
-      <workItem from="1607344849056" duration="1768000" />
+      <workItem from="1607344849056" duration="1955000" />
+      <workItem from="1607409407624" duration="2987000" />
     </task>
     <task id="LOCAL-00001" summary="1">
       <created>1607176266119</created>
@@ -238,7 +238,14 @@
       <option name="project" value="LOCAL" />
       <updated>1607346865438</updated>
     </task>
-    <option name="localTasksCounter" value="3" />
+    <task id="LOCAL-00003" summary="12.7">
+      <created>1607347020366</created>
+      <option name="number" value="00003" />
+      <option name="presentableId" value="LOCAL-00003" />
+      <option name="project" value="LOCAL" />
+      <updated>1607347020366</updated>
+    </task>
+    <option name="localTasksCounter" value="4" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
