@@ -6,6 +6,7 @@ def rgb2gray(img):
     rgb = cv2.cvtColor(img, cv2.COLOR_BGR2RGB)
     img_gray = np.dot(rgb[...,:3], [0.299, 0.587, 0.114])
     return img_gray
+
 def smooth(image, sigma = 1.4, length = 5):
     """ Smooth the image
     Compute a gaussian filter with sigma = sigma and kernal_length = length.
@@ -17,7 +18,6 @@ def smooth(image, sigma = 1.4, length = 5):
         image: array of grey image
         sigma: the sigma of gaussian filter, default to be 1.4
         length: the kernal length, default to be 5
-
     Returns:
         the smoothed image
     """
@@ -38,7 +38,6 @@ def smooth(image, sigma = 1.4, length = 5):
             new_image[i, j] = np.sum(image[i:i+length, j:j+length] * gaussian)
     new_image = np.uint8(new_image)
     return new_image
-
 
 def get_gradient_and_direction(image):
     """ Compute gradients and its direction
